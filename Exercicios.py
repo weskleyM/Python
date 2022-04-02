@@ -7,7 +7,7 @@ print('O sucessor de {} é {}'.format(var, sucessor))
 # Dobro, Triplo e Raíz quadrada de uma variável
 dobro = var * 2
 triplo = var * 3
-raizQ = var ** (1 / 2)
+raizQ = var ** (1 / 2)  # ou pow(n, (1/2))
 print('O dobro de {} é {}'.format(var, dobro))
 print('O triplo de {} é {}'.format(var, triplo))
-print('A raíz quadrada de {} é {}'.format(var, raizQ))
+print('A raíz quadrada de {} é {:.2f}'.format(var, raizQ))
