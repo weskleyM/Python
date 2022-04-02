@@ -15,4 +15,18 @@ print('A raíz quadrada de {} é {:.2f}\n'.format(var, raizQ))
 n1 = float(input('Digite nota 1: '))
 n2 = float(input('Digite nota 2: '))
 media = (n1+n2)/2
-print('A média entre {} e {} é {:.2f}'.format(n1, n2, media))
+print('A média entre {} e {} é {:.2f}\n'.format(n1, n2, media))
+# Conversão de valores métricos
+var2 = float(input('Digite um valor em metros: '))
+km = var2 * 1000
+hm = var2 * 100
+dam = var2 * 10
+dm = var2 / 10
+cm = var2 / 100
+mm = var2 / 1000
+print('{} metro(s) em quilômetros é {:.0f}'.format(var2, km))
+print('{} metro(s) em hectômetros é {:.0f}'.format(var2, hm))
+print('{} metro(s) em decâmetros é {:.0f}'.format(var2, dam))
+print('{} metro(s) em decímetros é {}'.format(var2, dm))
+print('{} metro(s) em centímetros é {}'.format(var2, cm))
+print('{} metro(s) em milímetros é {}'.format(var2, mm))
