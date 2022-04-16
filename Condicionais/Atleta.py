@@ -20,4 +20,4 @@ elif idade > 25:
     c = 'Master'
     print('Está classificado como {}'.format(c))
 else:
-    print('O atleta tem {} anos, ainda não pode competir!'.format(idade))
+    print('O atleta tem {} ano(s), ainda não pode competir!'.format(idade))
