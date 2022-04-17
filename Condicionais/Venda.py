@@ -25,11 +25,13 @@ elif op == 2:
     print('\nTotal cartão à vista com 5% de desconto: R${:.2f}'.format(vistaC))
 elif op == 3:
     parc_2 = valor / 2
-    print('\nTotal parcelado em 2x: R${:.2f}'.format(parc_2))
+    print('\nParcelado em 2x sem juros: R${:.2f}'.format(parc_2))
+    print('Total a prazo: R${:.2f}'.format(parc_2*2))
 elif op == 4:
     n = int(input('Número de parcelas: '))
     aux = (valor / n)
-    parc_N = (aux + aux * 20 / 100) * n
-    print('\nTotal parcelado em {}x com 20% de juros: R${:.2f}'.format(n, parc_N))
+    parc_N = aux + aux * 20 / 100
+    print('\nParcelado em {}x com 20% de juros: R${:.2f}'.format(n, parc_N))
+    print('Total a prazo: R${:.2f}'.format(parc_N*n))
 else:
     print('\nOpção inválida!')
