@@ -3,9 +3,9 @@ idoso, jovem = '', ''
 
 for i in range(3):
     print('---- {}º Pessoa ----'.format(i+1))
-    nome = input('Nome: ').capitalize()
+    nome = input('Nome: ').strip().capitalize()
     idade = int(input('Idade: '))
-    sexo = input('Sexo (M/F): ')
+    sexo = input('Sexo (M/F): ').strip().upper()
     if i == 0:
         maior = idade
         menor = idade
