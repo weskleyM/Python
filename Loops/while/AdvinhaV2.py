@@ -1,8 +1,8 @@
 from random import randint
 
 cont = 1
-pc = randint(1, 15)
-j = int(input('Digite um número de 1 a 15: '))
+pc = randint(1, 5)
+j = int(input('Digite um número de 1 a 5: '))
 
 while j != pc:
     j = int(input('Tente novamente: '))
