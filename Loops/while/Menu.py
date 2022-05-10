@@ -1,9 +1,9 @@
-op = -1
+op = 1
 
 n1 = int(input('Digite N1: '))
 n2 = int(input('Digite N2: '))
 
-while op != 0:
+while 0 < op < 6:
     print('\n[1] SOMAR\n'
         '[2] SUBTRAIR\n'
         '[3] MULTIPLICAR\n'
