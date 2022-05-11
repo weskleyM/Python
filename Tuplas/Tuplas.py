@@ -66,3 +66,12 @@ from random import randint
 #         print(f'{menu[pos]:.<20}', end='')
 #     else:
 #         print(f'R$ {menu[pos]:>7.2f}')
+
+# # SEPARANDO VOGAIS DAS PALAVRAS DE UMA TUPLA
+# palavras = ('ontem', 'carro', 'cadeira', 'vassoura')
+# for p in palavras:
+#     print(f'\nNa palavra {p} -> Vogais: ', end='')
+#     for v in p:
+#         if v.lower() in 'aeiou':
+#             print(f'{v} ', end='')
+# print('\n')
