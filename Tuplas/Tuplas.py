@@ -70,7 +70,7 @@ from random import randint
 # # SEPARANDO VOGAIS DAS PALAVRAS DE UMA TUPLA
 # palavras = ('ontem', 'carro', 'cadeira', 'vassoura')
 # for p in palavras:
-#     print(f'\nNa palavra {p} -> Vogais: ', end='')
+#     print(f'\nNa palavra {p.upper()} -> Vogais: ', end='')
 #     for v in p:
 #         if v.lower() in 'aeiou':
 #             print(f'{v} ', end='')
