@@ -32,3 +32,29 @@ from random import randint
 #     print(f'{n} ', end='')
 # print(f'\nO maior número é: {max(num)}')
 # print(f'O maior número é: {min(num)}')
+
+# # INSERE 4 VALORES E ANALISA DADOS EM UMA TUPLA
+# num = (int(input('Digite N1: ')),
+#      int(input('Digite N2: ')),
+#      int(input('Digite N3: ')),
+#      int(input('Digite N4: ')))
+# print(f'Valores: {num}')
+# print('Quantas vezes o valor 5 apareceu? ', end='')
+# if 5 in num:
+#     print(f'{num.count(5)} vez(es)')
+# else:
+#     print('Não encontrado!')
+# print('Em qual posição o valor 7 aparece? ', end='')
+# if 7 in num:
+#     print(f'{num.index(7)+1}ª posição')
+# else:
+#     print('Não encontrado!')
+# print(f'Valores pares: ', end='')
+# for n in num:
+#     if n % 2 == 0:
+#         print(f'{n} ', end='')
+# print(f'\nValores ímpares: ', end='')
+# for n in num:
+#     if n % 2 != 0:
+#         print(f'{n} ', end='')
+# print()
