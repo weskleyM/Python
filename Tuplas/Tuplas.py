@@ -58,3 +58,11 @@ from random import randint
 #     if n % 2 != 0:
 #         print(f'{n} ', end='')
 # print()
+
+# # MENU COM TUPLA
+# menu = ('Água', 2, 'Refrigerante', 3, 'Salgado', 4.5, 'Doces', 1.5, 'Picanha', 110)
+# for pos in range(len(menu)):
+#     if pos % 2 == 0:
+#         print(f'{menu[pos]:.<20}', end='')
+#     else:
+#         print(f'R$ {menu[pos]:>7.2f}')
