@@ -24,3 +24,23 @@
 #     if v == menor:
 #         print(f'#{i+1} ', end='')
 # print()
+
+# # RECEBE VALORES DE ACORDO COM A VONTADE DO USUÁRIO
+# lista = []
+# while True:
+#     n = int(input('digite um número: '))
+#     if n not in lista:
+#         lista.append(n)
+#         print('Número salvo!')
+#     else:
+#         print('Número já utilizado!')
+#     resp = input('Deseja continuar? [S/N]').strip().upper()
+#     while resp not in 'SN':
+#         print('opção inválida!')
+#         resp = input('Deseja continuar? [S/N]').strip().upper()
+#     if resp in 'S':
+#         continue
+#     elif resp in 'N':
+#         break
+# lista.sort()
+# print(lista)
