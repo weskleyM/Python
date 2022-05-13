@@ -45,7 +45,7 @@
 # lista.sort()
 # print(lista)
 
-# # INSERINDO E ORGANIZANDO AO MESMO TEMPO 5 ELEMENTOS NA LISTA
+# # INSERINDO E ORGANIZANDO AO MESMO TEMPO ELEMENTOS NA LISTA
 # lista = []
 # for i in range(5):
 #     n = int(input('Digite um número: '))
