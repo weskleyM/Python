@@ -138,3 +138,16 @@
 #     if l[1] == menor:
 #         print(f'{l[0]}, ', end='')
 # print(f'com: {menor:.2f}kg')
+
+# # NUMEROS PARES E ÍMPARES V2.0 EM ORDEM DECRESCENTE
+# lista = [[],[]]
+# num = 0
+# for i in range(8):
+#     num = int(input(f'Digite o {i+1}º número: '))
+#     if num % 2 == 0:
+#         lista[0].append(num)
+#     else:
+#         lista[1].append(num)
+# lista[1].sort(reverse=True)
+# print(f'O número pares são: {sorted(lista[0], reverse=True)}')
+# print(f'Os números ímpares são: {lista[1]}')
