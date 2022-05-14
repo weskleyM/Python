@@ -65,3 +65,38 @@
 #                 break
 #             pos += 1
 # print(lista)
+
+# # RECEBE N VALORES E RETORNA UMA LISTA COM OS VALORES DIGITADOS E OUTRAS 2 LISTAS COM OS MESMOS SEPARADOS POR PAR E IMPAR
+# lista = []
+# pares = []
+# impares = []
+# while True:
+#     while True:
+#         n = int(input('Digite um número: '))
+#         if n in lista:
+#             print('Número já está na lista!')
+#         else:
+#             lista.append(n)
+#             # OUTRO MODO
+#             # if n % 2 == 0:
+#             #     pares.append(n)
+#             # else:
+#             #     impares.append(n)
+#             break
+#     r = input('Deseja continuar?[S/N] ').strip().upper()
+#     while r not in 'SN':
+#         print('Opção Inválida!')
+#         r = input('Deseja continuar?[S/N] ').strip().upper()
+#     match r:
+#         case 'S':
+#             continue
+#         case 'N':
+#             break
+# print(f'Sua lista: {lista}')
+# for i, v in enumerate(lista):
+#     if v % 2 == 0:
+#         pares.append(v)
+#     else:
+#         impares.append(v)
+# print(f'Números pares: {pares}')
+# print(f'Números ímpares: {impares}')
