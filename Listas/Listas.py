@@ -77,7 +77,7 @@
 #             print('Número já está na lista!')
 #         else:
 #             lista.append(n)
-#             # OUTRO MODO
+#             # OUTRO MODO PARA SEPARAR EM PAR E IMPAR
 #             # if n % 2 == 0:
 #             #     pares.append(n)
 #             # else:
