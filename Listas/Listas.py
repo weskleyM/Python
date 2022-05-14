@@ -100,3 +100,41 @@
 #         impares.append(v)
 # print(f'Números pares: {pares}')
 # print(f'Números ímpares: {impares}')
+
+# # CADASTRA N PESSOAS/PESOS E RETORNA A QUANTIDADE DE PESSOAS CADASTRADAS, QUAL A(S) MAIS PESADAS E MAIS LEVES ENTRE ELAS
+# pessoa = list()
+# lista = list()
+# maior = menor = 0
+# while True:
+#     pessoa.append(input('Nome: ').strip().capitalize())
+#     pessoa.append(float(input('Peso: ')))
+#     lista.append(pessoa[:])
+#     if len(lista) == 1:
+#         maior = menor = pessoa[1]
+#     else:
+#         if pessoa[1] > maior:
+#             maior = pessoa[1]
+#         if pessoa[1] < menor:
+#             menor = pessoa[1]
+#     pessoa.clear()
+#     r = input('Deseja continuar?[S/N] ').strip().upper()
+#     while r not in 'SN':
+#         print('Opção Inválida!')
+#         r = input('Deseja continuar?[S/N] ').strip().upper()
+#     match r:
+#         case 'S':
+#             continue
+#         case 'N':
+#             break
+# # print(lista)
+# print(f'Foram cadastradas {len(lista)} pessoas!')
+# print('O mais pesado é ', end='')
+# for p in lista:
+#     if p[1] == maior:
+#         print(f'{p[0]}, ', end='')
+# print(f'com: {maior:.2f}kg')
+# print('O mais leve é ', end='')
+# for l in lista:
+#     if l[1] == menor:
+#         print(f'{l[0]}, ', end='')
+# print(f'com: {menor:.2f}kg')
