@@ -151,3 +151,23 @@
 # lista[1].sort(reverse=True)
 # print(f'O número pares são: {sorted(lista[0], reverse=True)}')
 # print(f'Os números ímpares são: {lista[1]}')
+
+# # PREENCHE UMA MATRIZ, SOMA SEUS ELEMENTOS PARES E SOMA A ULTIMA COLUNA
+# matriz = []
+# elem = []
+# soma = soma_col = 0
+# for l in range(3):
+#     for c in range(3):
+#         elem.append(int(input(f'Digite N{l,c}: ')))
+#     matriz.append(elem[:])
+#     elem.clear()
+# for m in range(len(matriz)):
+#     for n in range(len(matriz)):
+#         print(f'{matriz[m][n]} ', end='')
+#         if matriz[m][n] % 2 == 0:
+#             soma += matriz[m][n]
+#     print()
+# print(f'A soma dos pares é: {soma}')
+# for i in range(len(matriz)):
+#     soma_col += matriz[i][2]
+# print(f'A soma da 3ª coluna é: {soma_col}')
