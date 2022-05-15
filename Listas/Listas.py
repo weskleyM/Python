@@ -194,3 +194,43 @@
 # for i, l in enumerate(jogos):
 #     sleep(1)
 #     print(f'Jogo #{i+1}: {sorted(l)}')
+
+# # GERA UMA LISTA COMPOSTA COM DADOS DE UM ALUNO[NOME, NOTA#1, NOTA#2, MÉDIA] E RETORNA UM BOLETIM DE TODOS ALUNOS CADASTRADOS
+# aluno = list()
+# turma = list()
+# while True:
+#     aluno.append(input('Nome: ').strip().capitalize())
+#     aluno.append(float(input('Nota 1: ')))
+#     aluno.append(float(input('Nota 2: ')))
+#     media = (aluno[1]+aluno[2])/2
+#     aluno.append(media)
+#     turma.append(aluno[:])
+#     aluno.clear()
+#     r = input('Deseja continuar?[S/N] ').strip().upper()
+#     while r not in 'SN':
+#         print('Opção inválida!')
+#         r = input('Deseja continuar?[S/N] ').strip().upper()
+#     match r:
+#         case 'S':
+#             continue
+#         case 'N':
+#             break
+# # print(turma)
+# print(f'\n{"No.":<4}{"Nome":<10}{"Média":>8}')
+# for i, v in enumerate(turma):
+#     print(f'{i+1:<4}{v[0]:<10}{v[3]:>8}')
+# while True:
+#     n = input('\nQual aluno você deseja ver as notas: ').strip().capitalize()
+#     for j, a in enumerate(turma):
+#         if n in a[0]:
+#             print(f'Nota #1: {a[1]}')
+#             print(f'Nota #2: {a[2]}')
+#     r = input('Deseja continuar?[S/N] ').strip().upper()
+#     while r not in 'SN':
+#         print('Opção inválida!')
+#         r = input('Deseja continuar?[S/N] ').strip().upper()
+#     match r:
+#         case 'S':
+#             continue
+#         case 'N':
+#             break
