@@ -171,3 +171,26 @@
 # for i in range(len(matriz)):
 #     soma_col += matriz[i][2]
 # print(f'A soma da 3ª coluna é: {soma_col}')
+
+# # GERA 6 NUMEROS ALEATÓRIOS N VEZES; EXEMPLO: JOGOS DE LOTERIA
+# from random import randint
+# from time import sleep
+
+# lista = list()
+# jogos = list()
+# total = 0
+# qtd = int(input(f'Quantos jogos você deseja gerar? '))
+# while total < qtd:
+#     cont = 0
+#     while cont < 6:
+#         n = randint(1, 60)
+#         if n not in lista:
+#             lista.append(n)
+#             cont += 1
+#     total += 1
+#     jogos.append(lista[:])
+#     lista.clear()
+# print('PROCESSANDO...')
+# for i, l in enumerate(jogos):
+#     sleep(1)
+#     print(f'Jogo #{i+1}: {sorted(l)}')
